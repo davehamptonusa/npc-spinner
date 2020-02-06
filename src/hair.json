@@ -1,0 +1,49 @@
+{
+	"hairStyle": [
+		"Balding",
+		"Braided",
+		"Crew cut",
+		"Dreadlocked",
+		"Frazzled",
+		"Long",
+		"Long",
+		"Long",
+		"Messy",
+		"Pony Tailed",
+		"Strangely styled ",
+		"Short",
+		"Short",
+		"Short",
+		"Thinning",
+		"Very Long",
+		"Well groomed"
+	],
+	"hairColor": [
+		"Black",
+		"Deep Brunette",
+		"Dark Brown",
+		"Medium Brown",
+		"Light Brown",
+		"Chestnut",
+		"Auburn",
+		"Ginger",
+		"Copper",
+		"Strawberry Blonde",
+		"Platinum Blond",
+		"Light Blonde",
+		"Golden Blonde",
+		"Medium Blonde",
+		"Gray",
+		"White"
+	],
+	"hairTexture": [
+		"Curly",
+		"Greasy",
+		"Limp",
+		"Streaked",
+		"Straight",
+		"Thick",
+		"Wavy",
+		"Wiry"
+	]
+}
