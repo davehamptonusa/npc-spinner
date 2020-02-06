@@ -9,6 +9,7 @@ import TraitValue from './TraitValue.js';
 import alignment from './alignment.json';
 import hair from './hair.json';
 import personalityTraits from './personalityTraits.json';
+import names from './names.json';
 import speech from './speech.json';
 import traitsOptions from './traitsOptions.json';
 
@@ -21,6 +22,7 @@ class App extends React.Component {
   static defaultProps = {
     ...alignment,
     ...hair,
+    ...names,
     ...personalityTraits,
     ...speech,
     ...traitsOptions   
@@ -32,13 +34,29 @@ class App extends React.Component {
 		data[Math.floor(Math.random() * data.length)];
 
   spinTraits = () => {
+
     let characteristic = this.getRandomValue(this.props.characteristics);
+    let race = this.getRandomValue(this.props.race);
+    let gender = this.getRandomValue(this.props.gender);
+
+    // Combine lists for "Half" Species
+    let firstNameList = 
+      race.includes("Half-") 
+        ? this.props.names[race.replace("Half-","")].First[gender].concat(this.props.names.Human.First[gender])
+        : this.props.names[race].First[gender];
+    let lastNameList = 
+      race.includes("Half-") 
+        ? this.props.names[race.replace("Half-","")].Last.concat(this.props.names.Human.Last)
+        : this.props.names[race].Last;
+    let firstName = this.getRandomValue(firstNameList);
+    let lastName = this.getRandomValue(lastNameList);
+
     return {
-      name: this.getRandomValue(this.props.names),
-      gender: this.getRandomValue(this.props.gender),
+      name: `${firstName} ${lastName}`,
+      gender: gender,
       age: this.getRandomValue(this.props.age),
       height: this.getRandomValue(this.props.height),
-      race: this.getRandomValue(this.props.race),
+      race: race,
       hairStyle: this.getRandomValue(this.props.hairStyle),
       hairColor: this.getRandomValue(this.props.hairColor),
       hairTexture: this.getRandomValue(this.props.hairTexture),      
@@ -85,7 +103,6 @@ class App extends React.Component {
       knack } = this.state;
       let description = height + " for an " + age + " " + race;
       let hair = `${hairStyle}, ${hairTexture}, ${hairColor} Hair`
-      let descriptivePitch = `${pitch} for a ${gender} ${race}`
       let personalityFields = [
         ["Normal Behavior", positiveTrait],
         ["Drunk or Tired", neutralTrait],
@@ -117,8 +134,9 @@ class App extends React.Component {
         <div className="col-xs-12">
           <div className="panel panel-info">
               <div className="panel-body">
-              <br/>
-              <SimpleValue title="Name" text={name}/>
+              <h3>{name}</h3>
+              <SimpleValue title="Race" text={race}/>
+              <SimpleValue title="Age" text={age}/>
               <SimpleValue title="Sex" text={gender}/>
               <SimpleValue title="Hair" text={hair}/>
               <SimpleValue title="Facial" text={facialFeatures}/>

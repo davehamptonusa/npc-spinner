@@ -1,281 +1,516 @@
 {
-    "Human": {
-        "First": {
-            "Male": [
-                "Anlow",
-                "Arando",
-                "Bram",
-                "Cale",
-                "Dalkon",
-                "Daylen",
-                "Dodd",
-                "Dungarth",
-                "Dyrk",
-                "Eandro",
-                "Falken",
-                "Feck",
-                "Fenton",
-                "Gryphero",
-                "Hagar",
-                "Jeras",
-                "Krynt",
-                "Lavant",
-                "Leyten",
-                "Madian",
-                "Malfier",
-                "Markus",
-                "Meklan",
-                "Namen",
-                "Navaren",
-                "Nerle",
-                "Nilus",
-                "Ningyan",
-                "Norris",
-                "Quentin",
-                "Semil",
-                "Sevenson",
-                "Steveren",
-                "Talfen",
-                "Tamond",
-                "Taran",
-                "Tavon",
-                "Tegan",
-                "Vanan",
-                "Vincent"
-            ],
-            "Female": [
-                "Azura,"
-                "Brey,"
-                "Hallan,"
-                "Kasaki,"
-                "Lorelei,"
-                "Mirabel,"
-                "Pharana,"
-                "Remora,"
-                "Rosalyn,"
-                "Sachil,"
-                "Saidi,"
-                "Tanika,"
-                "Tura,"
-                "Tylsa,"
-                "Vencia,"
-                "Xandrilla"
+    "names": {
+        "Human": {
+            "First": {
+                "Male": [
+                    "Anlow",
+                    "Arando",
+                    "Bram",
+                    "Cale",
+                    "Dalkon",
+                    "Daylen",
+                    "Dodd",
+                    "Dungarth",
+                    "Dyrk",
+                    "Eandro",
+                    "Falken",
+                    "Feck",
+                    "Fenton",
+                    "Gryphero",
+                    "Hagar",
+                    "Jeras",
+                    "Krynt",
+                    "Lavant",
+                    "Leyten",
+                    "Madian",
+                    "Malfier",
+                    "Markus",
+                    "Meklan",
+                    "Namen",
+                    "Navaren",
+                    "Nerle",
+                    "Nilus",
+                    "Ningyan",
+                    "Norris",
+                    "Quentin",
+                    "Semil",
+                    "Sevenson",
+                    "Steveren",
+                    "Talfen",
+                    "Tamond",
+                    "Taran",
+                    "Tavon",
+                    "Tegan",
+                    "Vanan",
+                    "Vincent"
+                ],
+                "Female": [
+                    "Azura",
+                    "Brey",
+                    "Hallan",
+                    "Kasaki",
+                    "Lorelei",
+                    "Mirabel",
+                    "Pharana",
+                    "Remora",
+                    "Rosalyn",
+                    "Sachil",
+                    "Saidi",
+                    "Tanika",
+                    "Tura",
+                    "Tylsa",
+                    "Vencia",
+                    "Xandrilla"
+                ]
+            },
+             "Last": [
+                "Arkalis",
+                "Armanci",
+                "Bilger",
+                "Blackstrand",
+                "Brightwater",
+                "Carnavon",
+                "Caskajaro",
+                "Coldshore",
+                "Coyle",
+                "Cresthill",
+                "Cuttlescar",
+                "Daargen",
+                "Dalicarlia",
+                "Danamark",
+                "Donoghan",
+                "Drumwind",
+                "Dunhall",
+                "Ereghast",
+                "Falck",
+                "Fallenbridge",
+                "Faringray",
+                "Fletcher",
+                "Fryft",
+                "Goldrudder",
+                "Grantham",
+                "Graylock",
+                "Gullscream",
+                "Hindergrass",
+                "Iscalon",
+                "Kreel",
+                "Kroft",
+                "Lamoth",
+                "Leerstrom",
+                "Lynchfield",
+                "Moonridge",
+                "Netheridge",
+                "Oakenheart",
+                "Pyncion",
+                "Ratley",
+                "Redraven",
+                "Revenmar",
+                "Roxley",
+                "Sell",
+                "Seratolva",
+                "Shanks",
+                "Shattermast",
+                "Shaulfer",
+                "Silvergraft",
+                "Stavenger",
+                "Stormchapel",
+                "Strong",
+                "Swiller",
+                "Talandro ",
+                "Targana",
+                "Towerfall",
+                "Umbermoor",
+                "Van Devries",
+                "Van Gandt",
+                "Van Hyden",
+                "Varcona",
+                "Varzand",
+                "Voortham",
+                "Vrye",
+                "Webb",
+                "Welfer",
+                "Wilxes",
+                "Wintermere",
+                "Wygarthe",
+                "Zatchet",
+                "Zethergyll"
             ]
         },
-       "Last": [
-            "Arkalis",
-            "Armanci",
-            "Bilger",
-            "Blackstrand",
-            "Brightwater",
-            "Carnavon",
-            "Caskajaro",
-            "Coldshore",
-            "Coyle",
-            "Cresthill",
-            "Cuttlescar",
-            "Daargen",
-            "Dalicarlia",
-            "Danamark",
-            "Donoghan",
-            "Drumwind",
-            "Dunhall",
-            "Ereghast",
-            "Falck",
-            "Fallenbridge",
-            "Faringray",
-            "Fletcher",
-            "Fryft",
-            "Goldrudder",
-            "Grantham",
-            "Graylock",
-            "Gullscream",
-            "Hindergrass",
-            "Iscalon",
-            "Kreel",
-            "Kroft",
-            "Lamoth",
-            "Leerstrom",
-            "Lynchfield",
-            "Moonridge",
-            "Netheridge",
-            "Oakenheart",
-            "Pyncion",
-            "Ratley",
-            "Redraven",
-            "Revenmar",
-            "Roxley",
-            "Sell",
-            "Seratolva",
-            "Shanks",
-            "Shattermast",
-            "Shaulfer",
-            "Silvergraft",
-            "Stavenger",
-            "Stormchapel",
-            "Strong",
-            "Swiller",
-            "Talandro ",
-            "Targana",
-            "Towerfall",
-            "Umbermoor",
-            "Van Devries",
-            "Van Gandt",
-            "Van Hyden",
-            "Varcona",
-            "Varzand",
-            "Voortham",
-            "Vrye",
-            "Webb",
-            "Welfer",
-            "Wilxes",
-            "Wintermere",
-            "Wygarthe",
-            "Zatchet",
-            "Zethergyll"
-        ]
-    },
-    "Human": {
-        "First": {
-            Male: {
-
+        "Dragonborn": {
+            "First": {
+                "Male": [
+                    "Andujar",
+                    "Armagan",
+                    "Armek",
+                    "Arzan",
+                    "Axaran",
+                    "Belaxarim",
+                    "Brevarr",
+                    "Djemidor",
+                    "Draxan",
+                    "Fayal",
+                    "Grax",
+                    "Iojad",
+                    "Inzul",
+                    "Khiraj",
+                    "Kreytzen",
+                    "Lejek",
+                    "Mar",
+                    "Nazir",
+                    "Nedam",
+                    "Nevek",
+                    "Ravaran",
+                    "Razaan",
+                    "Sarax",
+                    "Sarram",
+                    "Savaxis",
+                    "Siangar",
+                    "Sirizan",
+                    "Sunan",
+                    "Szuran",
+                    "Tajan",
+                    "Tamajon",
+                    "Tenahn",
+                    "Toxal",
+                    "Tzegyr",
+                    "Vantajar",
+                    "Vharkus",
+                    "Xafiq",
+                    "Zarkhil"
+                ],
+                "Female": [
+                    "Artana",
+                    "Kalas",
+                    "Khagra",
+                    "Leytra",
+                    "Myrka",
+                    "Naya",
+                    "Sarcha",
+                    "Shirren",
+                    "Sirivistra",
+                    "Sufana",
+                    "Tamara",
+                    "Vrumadi",
+                    "Zovra"
+                ]
             },
-            "Female": {
-
-            }
+            "Last": [
+                "Of the Clan Clethtinthiallor",
+                "Of the Clan Daardendrian",
+                "Of the Clan Delmirev",
+                "Of the Clan Drachedandion",
+                "Of the Clan Fenkenkabradon",
+                "Of the Clan Kepeshkmolik",
+                "Of the Clan Kerrhylon",
+                "Of the Clan Kimbatuul",
+                "Of the Clan Linxakasendalor",
+                "Of the Clan Myastan",
+                "Of the Clan Nemmonis",
+                "Of the Clan Norixius",
+                "Of the Clan Ophinshtalajiir",
+                "Of the Clan Prexijandilin",
+                "Of the Clan Shestendeliath",
+                "Of the Clan Turnuroth",
+                "Of the Clan Verthisathurgiesh",
+                "Of the Clan Yarjerit"
+            ]
         },
-        Last: {
-
-        }
-    },
-    "Human": {
-        "First": {
-            Male: {
-
+        "Dwarf": {
+            "First": {
+                "Male": [
+                    "Agaro",
+                    "Arnan",
+                    "Auxlan",
+                    "Avamir",
+                    "Baelnar",
+                    "Balfam",
+                    "Bariken",
+                    "Borkûl",
+                    "Darkûl",
+                    "Dolmen",
+                    "Dyrnar",
+                    "Erag",
+                    "Ezegan",
+                    "Ferrek",
+                    "Garmûl",
+                    "Glint",
+                    "Ghorvas",
+                    "Grimmalk",
+                    "Haeltar",
+                    "Halagmar",
+                    "Halzar",
+                    "Hlant",
+                    "Korlag",
+                    "Krag",
+                    "Krim",
+                    "Kurman",
+                    "Lurtrum",
+                    "Malagar",
+                    "Mardam",
+                    "Maulnar",
+                    "Melgar",
+                    "Morak",
+                    "Orobok",
+                    "Rogath",
+                    "Roken",
+                    "Rozag",
+                    "Sabakzar",
+                    "Sharak",
+                    "Smethykk",
+                    "Swargar",
+                    "Thorbalt",
+                    "Thorin",
+                    "Tredigar",
+                    "Vabûl",
+                    "Vistrum",
+                    "Wolvar"
+                ],
+                "Female": [
+                    "Beyla",
+                    "Fenryl",
+                    "Grenenzel",
+                    "Krystolari",
+                    "Lokara",
+                    "Lurka",
+                    "Marnia",
+                    "Praxana",
+                    "Rokel",
+                    "Roksana",
+                    "Thurlfara",
+                    "Vauldra",
+                    "Veklani",
+                    "Vronwe",
+                    "Zebel"
+                ]
             },
-            "Female": {
-
-            }
+            "Last": [
+                "Ambershard",
+                "Barrelhelm",
+                "Copperhearth",
+                "Deepmiddens",
+                "Drakantal",
+                "Evermead",
+                "Garkalan",
+                "Grimtor",
+                "Hackshield",
+                "Irongull",
+                "Markolak",
+                "Ramcrown",
+                "Rockharvest",
+                "Silvertarn",
+                "Skandalor",
+                "Zarkanan"
+            ]
         },
-        Last: {
-
-        }
-    },
-    "Human": {
-        "First": {
-            Male: {
-
+        "Elf": {
+            "First": {
+                "Male": [
+                    "Alarcion",
+                    "Alathar",
+                    "Ariandar",
+                    "Arromar",
+                    "Borel",
+                    "Bvachan",
+                    "Carydion",
+                    "Elgoth",
+                    "Farlien",
+                    "Ferel",
+                    "Gaerlan",
+                    "Iafalior",
+                    "Kaelthorn",
+                    "Laethan",
+                    "Leliar",
+                    "Leodor",
+                    "Lorak",
+                    "Lorifir",
+                    "Morian",
+                    "Oleran",
+                    "Rylef",
+                    "Savian",
+                    "Seylas",
+                    "Tevior",
+                    "Veyas"
+                ],
+                "Female": [
+                    "Aryllan",
+                    "Atalya",
+                    "Ayrthwil",
+                    "Irva",
+                    "Lyfalia",
+                    "Ronefel",
+                    "Thirya",
+                    "Velene",
+                    "Venefiq",
+                    "Zereni"
+                ]
             },
-            "Female": {
-
-            }
+            "Last": [
+                "Autumnloft",
+                "Balefrost",
+                "Briarfell",
+                "Evenwind",
+                "Graytrails",
+                "Mooncairn",
+                "Riverwall",
+                "Stormwolf",
+                "Summergale",
+                "Sunshadow",
+                "Woodenhawk"
+            ]
         },
-        Last: {
-
-        }
-    },
-    "Human": {
-        "First": {
-            Male: {
-
+        "Halfling": {
+            "First": {
+                "Male": [
+                    "Arthan",
+                    "Carvin",
+                    "Corby",
+                    "Cullen",
+                    "Egen",
+                    "Ernest",
+                    "Gedi",
+                    "Heron",
+                    "Jeryl",
+                    "Keffen",
+                    "Kylem",
+                    "Kynt",
+                    "Leskyn",
+                    "Neff",
+                    "Orne",
+                    "Quarrel",
+                    "Rabbit",
+                    "Rilkin",
+                    "Snakebait",
+                    "Tarfen",
+                    "Titch",
+                    "Tuck",
+                    "Whim"
+                ],
+                "Female": [
+                    "Caliope",
+                    "Emily",
+                    "Piper",
+                    "Rixi",
+                    "Sabretha",
+                    "Teg",
+                    "Tilly",
+                    "Toira",
+                    "Vexia",
+                    "Vil",
+                    "Vzani",
+                    "Zanthe",
+                    "Ziza"
+                ]
             },
-            "Female": {
-
-            }
+            "Last": [
+                "Angler",
+                "Battlestone",
+                "Blackwater",
+                "Daggersharp",
+                "Deepstrider",
+                "Hollowpot",
+                "Puddle",
+                "Raftmite",
+                "Skiprock",
+                "Silverfin",
+                "Tanglestrand",
+                "Tricker",
+                "Willowrush",
+                "Yellowcrane"
+            ]
         },
-        Last: {
-
-        }
-    },
-    "Human": {
-        "First": {
-            Male: {
-
+        "Tiefling": {
+            "First": {
+                "Male": [
+                    "Ankhus",
+                    "Arkadi",
+                    "Armarius",
+                    "Armillius",
+                    "Archidius",
+                    "Balmoloch",
+                    "Calderax",
+                    "Cavian",
+                    "Cenereth",
+                    "Chorum",
+                    "Corynax",
+                    "Dacian",
+                    "Daelius",
+                    "Damaceus",
+                    "Decimeth",
+                    "Demedor",
+                    "Demerian",
+                    "Dynachus",
+                    "Grassus",
+                    "Halius",
+                    "Heleph",
+                    "Incirion",
+                    "Kalaradian",
+                    "Kamien",
+                    "Kazimir",
+                    "Kzandro",
+                    "Machem",
+                    "Maetheus",
+                    "Malfias",
+                    "Marchion",
+                    "Menerus",
+                    "Namazeus",
+                    "Nensis",
+                    "Prismeus",
+                    "Pyranikus",
+                    "Razortail",
+                    "Sejanus",
+                    "Severian",
+                    "Suffer",
+                    "Syken",
+                    "Tarkus",
+                    "Vaius",
+                    "Xerek",
+                    "Zeth",
+                    "Zevon"
+                ],
+                "Female": [
+                    "Affyria",
+                    "Cataclysmia",
+                    "Domitia",
+                    "Dorethau",
+                    "Excellence",
+                    "Hacari",
+                    "Iritra",
+                    "Lachira",
+                    "Levatra",
+                    "Mecretia",
+                    "Milvia",
+                    "Nericia",
+                    "Precious",
+                    "Rain",
+                    "Samantia",
+                    "Sunshine",
+                    "Tenerife",
+                    "Traya",
+                    "Velavia",
+                    "Zaidi",
+                    "Zethaya"
+                ]
             },
-            "Female": {
-
-            }
-        },
-        Last: {
-
-        }
-    },
-    "Human": {
-        "First": {
-            Male: {
-
-            },
-            "Female": {
-
-            }
-        },
-        Last: {
-
-        }
-    },
-    "Human": {
-        "First": {
-            Male: {
-
-            },
-            "Female": {
-
-            }
-        },
-        Last: {
-
-        }
-    },
-    "Human": {
-        "First": {
-            Male: {
-
-            },
-            "Female": {
-
-            }
-        },
-        Last: {
-
+            "Last": [
+                "Amarzian",
+                "Carnago",
+                "Domarien",
+                "Iscitan",
+                "Meluzan",
+                "Menetrian",
+                "Paradas",
+                "Romazi",
+                "Sarzan",
+                "Serechor",
+                "Shadowhorn",
+                "Szereban",
+                "Torzalan",
+                "Trelenus",
+                "Trevethor",
+                "Tryphon",
+                "Vadu",
+                "Vrago"
+            ]
         }
     }
 }
-
-
-Human Last Names: 
-
-Dragonborn Male Names: Andujar, Armagan, Armek, Arzan, Axaran, Belaxarim, Brevarr, Djemidor, Draxan, Fayal, Grax, Iojad, Inzul, Khiraj, Kreytzen, Lejek, Mar, Nazir, Nedam, Nevek, Ravaran, Razaan, Sarax, Sarram, Savaxis, Siangar, Sirizan, Sunan, Szuran, Tajan, Tamajon, Tenahn, Toxal, Tzegyr, Vantajar, Vharkus, Xafiq, Zarkhil
-
-Dragonborn Female Names: Artana, Kalas, Khagra, Leytra, Myrka, Naya, Sarcha, Shirren, Sirivistra, Sufana, Tamara, Vrumadi, Zovra
-
-Dragonborn Last Names: I don’t have a list of dragonborn last names, since so few dragonborn in the Iomandra campaign have them. However, if you’re hunting for something, check out some of the made-up ship names at the end of this page.
-
-Dwarf Male First Names: Agaro, Arnan, Auxlan, Avamir, Baelnar, Balfam, Bariken, Borkûl, Darkûl, Dolmen, Dyrnar, Erag, Ezegan, Ferrek, Garmûl, Glint, Ghorvas, Grimmalk, Haeltar, Halagmar, Halzar, Hlant, Korlag, Krag, Krim, Kurman, Lurtrum, Malagar, Mardam, Maulnar, Melgar, Morak, Orobok, Rogath, Roken, Rozag, Sabakzar, Sharak, Smethykk, Swargar, Thorbalt, Thorin, Tredigar, Vabûl, Vistrum, Wolvar
-
-Dwarf Female First Names: Beyla, Fenryl, Grenenzel, Krystolari, Lokara, Lurka, Marnia, Praxana, Rokel, Roksana, Thurlfara, Vauldra, Veklani, Vronwe, Zebel
-
-Dwarf Last Names: Ambershard, Barrelhelm, Copperhearth, Deepmiddens, Drakantal, Evermead, Garkalan, Grimtor, Hackshield, Irongull, Markolak, Ramcrown, Rockharvest, Silvertarn, Skandalor, Zarkanan
-
-Eladrin Male First Names: Aialon, Elarahal, Jiardem, Laern, Lelyrian, Lephyrr, Loray, Sayadar, Talonien, Vaerlan, Xoneras, Zaquivir
-
-Eladrin Female First Names: Allyria, Ayrdra, Deneth, Elseone, Etherea, Istiria, Karanwyn, Lieryn, Ravel, Sinariel, Sydri, Taris, Turue, Vacquiel, Valendra
-
-Eladrin Last Names: Lantherval, Lorhalien, Maldranthe, Shalbarain, Sirothian, Starfeon, Zolerii
-
-Elf Male First Names: Alarcion, Alathar, Ariandar, Arromar, Borel, Bvachan, Carydion, Elgoth, Farlien, Ferel, Gaerlan, Iafalior, Kaelthorn, Laethan, Leliar, Leodor, Lorak, Lorifir, Morian, Oleran, Rylef, Savian, Seylas, Tevior, Veyas
-
-Elf Female First Names: Aryllan, Atalya, Ayrthwil, Irva, Lyfalia, Ronefel, Thirya, Velene, Venefiq, Zereni
-
-Elf Last Names: Autumnloft, Balefrost, Briarfell, Evenwind, Graytrails, Mooncairn, Riverwall, Stormwolf, Summergale, Sunshadow, Woodenhawk
-
-Halfling Male First Names: Arthan, Carvin, Corby, Cullen, Egen, Ernest, Gedi, Heron, Jeryl, Keffen, Kylem, Kynt, Leskyn, Neff, Orne, Quarrel, Rabbit, Rilkin, Snakebait, Tarfen, Titch, Tuck, Whim
-
-Halfling Female First Names: Caliope, Emily, Piper, Rixi, Sabretha, Teg, Tilly, Toira, Vexia, Vil, Vzani, Zanthe, Ziza
-
-Halfling Last Names: Angler, Battlestone, Blackwater, Daggersharp, Deepstrider, Hollowpot, Puddle, Raftmite, Skiprock, Silverfin, Tanglestrand, Tricker, Willowrush, Yellowcrane
-
-Tiefling Male First Names: Ankhus, Arkadi, Armarius, Armillius, Archidius, Balmoloch, Calderax, Cavian, Cenereth, Chorum, Corynax, Dacian, Daelius, Damaceus, Decimeth, Demedor, Demerian, Dynachus, Grassus, Halius, Heleph, Incirion, Kalaradian, Kamien, Kazimir, Kzandro, Machem, Maetheus, Malfias, Marchion, Menerus, Namazeus, Nensis, Prismeus, Pyranikus, Razortail, Sejanus, Severian, Suffer, Syken, Tarkus, Vaius, Xerek, Zeth, Zevon
-
-Tiefling Female First Names: Affyria, Cataclysmia, Domitia, Dorethau, Excellence, Hacari, Iritra, Lachira, Levatra, Mecretia, Milvia, Nericia, Precious, Rain, Samantia, Sunshine, Tenerife, Traya, Velavia, Zaidi, Zethaya
-
-Tiefling Last Names: Amarzian, Carnago, Domarien, Iscitan, Meluzan, Menetrian, Paradas, Romazi, Sarzan, Serechor, Shadowhorn, Szereban, Torzalan, Trelenus, Trevethor, Tryphon, Vadu, Vrago.
