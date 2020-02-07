@@ -28,7 +28,7 @@ class TraitList extends React.Component {
 								let bodyLocation = getRandomValue(traitsOptions.bodyLocations);
 								location = ` (location: ${bodyLocation})`;
 							}
-							return <dd contentEditable key={index}>{value.text}
+							return <dd contentEditable key={index}>&nbsp;-&nbsp;{value.text}
 							  <small>{location}</small></dd>
       					})}
                         </dl>

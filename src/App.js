@@ -151,7 +151,7 @@ class App extends React.Component {
               <ListValue title="Speech" fields={speechFields}/>
               <TraitList title = "Characteristics" fields={characteristicFields}/>
 
-              <SimpleValue title="Alignment" text={alignment}/>
+              <SimpleValue title={Object.keys(alignment)[0]} text={alignment[Object.keys(alignment)[0]]}/>
               <SimpleValue title="Instinct" text={instinct}/>
               <SimpleValue title="Knack" text={knack}/>
               <ListValue title="Personality" fields={personalityFields}/>

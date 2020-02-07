@@ -18,7 +18,7 @@ class ListValue extends React.Component {
 					<div className="col-xs-8 col-md-10">
                         <dl>
 						{this.props.fields.map((value, index) => {
-							return <dd contentEditable key={index}><strong>{value[0]}</strong>: {value[1]}</dd>
+							return <dd contentEditable key={index}><strong>&nbsp;-&nbsp;{value[0]}</strong>: {value[1]}</dd>
       					})}
                         </dl>
 					</div>
