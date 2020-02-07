@@ -40,25 +40,20 @@
         "Stuffy"
     ],
     "accent": [
+        "African",
         "American",
-        "British",
-        "Irish",
-        "American",
-        "British",
-        "Irish",
-        "American",
-        "British",
-        "Irish",
-        "Scottish",
         "Australian",
+        "British",
+        "Cowboy",
         "German",
-        "Italian",
-        "Wakonda",
-        "Spanish",
-        "Mexican",
-        "Southern",
         "Indian",
+        "French",
+        "Irish",
+        "Italian",
+        "Mexican",
         "Russian",
-        "Cowboy"
+        "Southern",
+        "Scottish",
+        "Spanish"
     ]
 }

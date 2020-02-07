@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class SimpleValue extends React.Component {
-    constructor(props) {
-        super(props);
-	}
+
 	static defaultProps = {
 		title: 'TBD title',
 		text: 'TBD text'

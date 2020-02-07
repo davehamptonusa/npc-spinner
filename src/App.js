@@ -4,7 +4,7 @@ import './App.css';
 // COMPONENTS
 import SimpleValue from './SimpleValue.js';
 import ListValue from './ListValue.js';
-import TraitValue from './TraitValue.js';
+import TraitList from './TraitList.js';
 // DATA
 import alignment from './json/alignment.json';
 import hair from './json/hair.json';
@@ -12,6 +12,8 @@ import personalityTraits from './json/personalityTraits.json';
 import names from './json/names.json';
 import speech from './json/speech.json';
 import traitsOptions from './json/traitsOptions.json';
+//
+import { getRandomValue } from './Utils.js';
 
 
 class App extends React.Component {
@@ -30,14 +32,12 @@ class App extends React.Component {
 	/**
 	 * TODO Abstract to helper object?
 	 */
-	getRandomValue = (data) => 
-		data[Math.floor(Math.random() * data.length)];
 
   spinTraits = () => {
 
-    let characteristic = this.getRandomValue(this.props.characteristics);
-    let race = this.getRandomValue(this.props.race);
-    let gender = this.getRandomValue(this.props.gender);
+    let race = getRandomValue(this.props.race);
+    let gender = getRandomValue(this.props.gender);
+
 
     // Combine lists for "Half" Species
     let firstNameList = 
@@ -48,31 +48,31 @@ class App extends React.Component {
       race.includes("Half-") 
         ? this.props.names[race.replace("Half-","")].Last.concat(this.props.names.Human.Last)
         : this.props.names[race].Last;
-    let firstName = this.getRandomValue(firstNameList);
-    let lastName = this.getRandomValue(lastNameList);
+    let firstName = getRandomValue(firstNameList);
+    let lastName = getRandomValue(lastNameList);
 
     return {
       name: `${firstName} ${lastName}`,
       gender: gender,
-      age: this.getRandomValue(this.props.age),
-      height: this.getRandomValue(this.props.height),
+      age: getRandomValue(this.props.age),
+      height: getRandomValue(this.props.height),
       race: race,
-      hairStyle: this.getRandomValue(this.props.hairStyle),
-      hairColor: this.getRandomValue(this.props.hairColor),
-      hairTexture: this.getRandomValue(this.props.hairTexture),      
-      facialFeatures: this.getRandomValue(this.props.facialFeatures),
-      positiveTrait: this.getRandomValue(this.props.positiveTraits),
-      neutralTrait: this.getRandomValue(this.props.neutralTraits),
-      negativeTrait: this.getRandomValue(this.props.negativeTraits),
-      alignment: this.getRandomValue(this.props.alignment),
-      accent: this.getRandomValue(this.props.accent),
-      airiness: this.getRandomValue(this.props.airiness),
-      pitch: this.getRandomValue(this.props.pitch),
-      cadence: this.getRandomValue(this.props.cadence),
-      characteristic: characteristic,
-      charLoc: characteristic.hasLocation ? this.getRandomValue(this.props.bodyLocations) : null,
-      instinct: this.getRandomValue(this.props.instincts),
-      knack: this.getRandomValue(this.props.knacks)
+      hairStyle: getRandomValue(this.props.hairStyle),
+      hairColor: getRandomValue(this.props.hairColor),
+      hairTexture: getRandomValue(this.props.hairTexture),      
+      facialFeatures: getRandomValue(this.props.facialFeatures),
+      positiveTrait: getRandomValue(this.props.positiveTraits),
+      neutralTrait: getRandomValue(this.props.neutralTraits),
+      negativeTrait: getRandomValue(this.props.negativeTraits),
+      alignment: getRandomValue(this.props.alignment),
+      accent: getRandomValue(this.props.accent),
+      airiness: getRandomValue(this.props.airiness),
+      pitch: getRandomValue(this.props.pitch),
+      cadence: getRandomValue(this.props.cadence),
+      characteristic1: getRandomValue(this.props.characteristics),
+      characteristic2: getRandomValue(this.props.characteristics),
+      instinct: getRandomValue(this.props.instincts),
+      knack: getRandomValue(this.props.knacks)
     }
   } 
 
@@ -94,8 +94,8 @@ class App extends React.Component {
       airiness, 
       cadence, 
       pitch,
-      characteristic, 
-      charLoc, 
+      characteristic1, 
+      characteristic2, 
       positiveTrait, 
       neutralTrait,
       negativeTrait,
@@ -114,6 +114,11 @@ class App extends React.Component {
         ["Airiness", airiness],
         ["Cadence", cadence]
       ];
+      let characteristicFields = 
+        [
+          characteristic1,
+          characteristic2,
+        ];
 
 		return (
 			<div className="container-fluid">
@@ -143,11 +148,11 @@ class App extends React.Component {
               <SimpleValue title="Description" text={description}/>
               <SimpleValue title="City" text=""/>
               <SimpleValue title="Occupation" text=""/>
-              <br/>
               <ListValue title="Speech" fields={speechFields}/>
+              <TraitList title = "Characteristics" fields={characteristicFields}/>
+
               <SimpleValue title="Alignment" text={alignment}/>
               <SimpleValue title="Instinct" text={instinct}/>
-              <TraitValue title="Characteristic" text={characteristic.text} location={charLoc}/>
               <SimpleValue title="Knack" text={knack}/>
               <ListValue title="Personality" fields={personalityFields}/>
               <div>&nbsp;</div>
