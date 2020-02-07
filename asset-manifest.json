@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/npc-spinner/static/css/main.d1b05096.chunk.css",
-    "main.js": "/npc-spinner/static/js/main.789616af.chunk.js",
-    "main.js.map": "/npc-spinner/static/js/main.789616af.chunk.js.map",
+    "main.js": "/npc-spinner/static/js/main.bdc49d26.chunk.js",
+    "main.js.map": "/npc-spinner/static/js/main.bdc49d26.chunk.js.map",
     "runtime-main.js": "/npc-spinner/static/js/runtime-main.6a14a201.js",
     "runtime-main.js.map": "/npc-spinner/static/js/runtime-main.6a14a201.js.map",
     "static/js/2.0928de37.chunk.js": "/npc-spinner/static/js/2.0928de37.chunk.js",
     "static/js/2.0928de37.chunk.js.map": "/npc-spinner/static/js/2.0928de37.chunk.js.map",
     "index.html": "/npc-spinner/index.html",
-    "precache-manifest.90bb70b3f55a52db8bd2718fb7a9243f.js": "/npc-spinner/precache-manifest.90bb70b3f55a52db8bd2718fb7a9243f.js",
+    "precache-manifest.4d63962a17bd9d2724784dd22e8d2857.js": "/npc-spinner/precache-manifest.4d63962a17bd9d2724784dd22e8d2857.js",
     "service-worker.js": "/npc-spinner/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/npc-spinner/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.0928de37.chunk.js.LICENSE.txt": "/npc-spinner/static/js/2.0928de37.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6a14a201.js",
     "static/js/2.0928de37.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.789616af.chunk.js"
+    "static/js/main.bdc49d26.chunk.js"
   ]
 }
