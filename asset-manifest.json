@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/davehamptonusa/npc-spinner/static/css/main.d1b05096.chunk.css",
-    "main.js": "/davehamptonusa/npc-spinner/static/js/main.f1eb43f7.chunk.js",
-    "main.js.map": "/davehamptonusa/npc-spinner/static/js/main.f1eb43f7.chunk.js.map",
-    "runtime-main.js": "/davehamptonusa/npc-spinner/static/js/runtime-main.52396b32.js",
-    "runtime-main.js.map": "/davehamptonusa/npc-spinner/static/js/runtime-main.52396b32.js.map",
-    "static/js/2.0928de37.chunk.js": "/davehamptonusa/npc-spinner/static/js/2.0928de37.chunk.js",
-    "static/js/2.0928de37.chunk.js.map": "/davehamptonusa/npc-spinner/static/js/2.0928de37.chunk.js.map",
-    "index.html": "/davehamptonusa/npc-spinner/index.html",
-    "precache-manifest.18a9e9ca4add2ffab4843bd2064a2ace.js": "/davehamptonusa/npc-spinner/precache-manifest.18a9e9ca4add2ffab4843bd2064a2ace.js",
-    "service-worker.js": "/davehamptonusa/npc-spinner/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/davehamptonusa/npc-spinner/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.0928de37.chunk.js.LICENSE.txt": "/davehamptonusa/npc-spinner/static/js/2.0928de37.chunk.js.LICENSE.txt"
+    "main.css": "/npc-spinner/static/css/main.d1b05096.chunk.css",
+    "main.js": "/npc-spinner/static/js/main.789616af.chunk.js",
+    "main.js.map": "/npc-spinner/static/js/main.789616af.chunk.js.map",
+    "runtime-main.js": "/npc-spinner/static/js/runtime-main.6a14a201.js",
+    "runtime-main.js.map": "/npc-spinner/static/js/runtime-main.6a14a201.js.map",
+    "static/js/2.0928de37.chunk.js": "/npc-spinner/static/js/2.0928de37.chunk.js",
+    "static/js/2.0928de37.chunk.js.map": "/npc-spinner/static/js/2.0928de37.chunk.js.map",
+    "index.html": "/npc-spinner/index.html",
+    "precache-manifest.90bb70b3f55a52db8bd2718fb7a9243f.js": "/npc-spinner/precache-manifest.90bb70b3f55a52db8bd2718fb7a9243f.js",
+    "service-worker.js": "/npc-spinner/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/npc-spinner/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.0928de37.chunk.js.LICENSE.txt": "/npc-spinner/static/js/2.0928de37.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.52396b32.js",
+    "static/js/runtime-main.6a14a201.js",
     "static/js/2.0928de37.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.f1eb43f7.chunk.js"
+    "static/js/main.789616af.chunk.js"
   ]
 }
