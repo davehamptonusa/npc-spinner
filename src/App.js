@@ -6,12 +6,12 @@ import SimpleValue from './SimpleValue.js';
 import ListValue from './ListValue.js';
 import TraitValue from './TraitValue.js';
 // DATA
-import alignment from './alignment.json';
-import hair from './hair.json';
-import personalityTraits from './personalityTraits.json';
-import names from './names.json';
-import speech from './speech.json';
-import traitsOptions from './traitsOptions.json';
+import alignment from './json/alignment.json';
+import hair from './json/hair.json';
+import personalityTraits from './json/personalityTraits.json';
+import names from './json/names.json';
+import speech from './json/speech.json';
+import traitsOptions from './json/traitsOptions.json';
 
 
 class App extends React.Component {
@@ -141,8 +141,8 @@ class App extends React.Component {
               <SimpleValue title="Hair" text={hair}/>
               <SimpleValue title="Facial" text={facialFeatures}/>
               <SimpleValue title="Description" text={description}/>
+              <SimpleValue title="City" text=""/>
               <SimpleValue title="Occupation" text=""/>
-
               <br/>
               <ListValue title="Speech" fields={speechFields}/>
               <SimpleValue title="Alignment" text={alignment}/>
