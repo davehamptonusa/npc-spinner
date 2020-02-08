@@ -101,7 +101,9 @@ class App extends React.Component {
       negativeTrait,
       instinct, 
       knack } = this.state;
-      let description = height + " for an " + age + " " + race;
+      const the_vowel = ["a","e","i","o","u"];
+      let word = (the_vowel.includes(race[0].toLowerCase())) ? "an" : "a";
+      let description = `${height} for ${word} ${race}`;
       let hair = `${hairStyle}, ${hairTexture}, ${hairColor} Hair`
       let personalityFields = [
         ["Normal Behavior", positiveTrait],
