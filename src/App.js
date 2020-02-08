@@ -124,8 +124,9 @@ class App extends React.Component {
       <div className="container-fluid">
 
         <div class="more-info details-more-info">
-          <div class="mon-stat-block__name">
-            NPC Spinner
+          <div class="mon-stat-block__header">
+            NPC Spinner <button type="button" className="btn btn-primary"
+                onClick={this.respin}>Spin Again</button>
           </div>
           <div class="detail-content">
             <div class="mon-stat-block">
@@ -168,8 +169,6 @@ class App extends React.Component {
               </div>
             </div>
           </div>
-          <button type="button" className="btn btn-primary"
-                onClick={this.respin}>Generate new traits</button>
         </div>
       </div>
 		);
