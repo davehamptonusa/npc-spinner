@@ -149,7 +149,9 @@ class App extends React.Component {
                 <div class="mon-stat-block__separator">
                   <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
                 </div>
-                <ListValue title="Speech" fields={speechFields} />
+                <div>
+                  <ListValue title="Speech" fields={speechFields} />
+                </div>
                 <div class="mon-stat-block__separator">
                   <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
                 </div>

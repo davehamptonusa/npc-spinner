@@ -106,7 +106,7 @@ p{margin:0 0 15px;}
 .mon-stat-block__name .mon-stat-block__name-link{color:#822000;}
 .mon-stat-block__name .mon-stat-block__name-link:hover,.mon-stat-block__name .mon-stat-block__name-link:visited,.mon-stat-block__name .mon-stat-block__name-link:active{color:#822000;}
 .mon-stat-block__meta{font-style:italic;margin-bottom:15px;}
-.mon-stat-block__attribute{margin:5px 0;color:#822000;line-height:1.2;}
+.mon-stat-block__attribute{break-inside: avoid; margin:5px 0;color:#822000;line-height:1.2;}
 .mon-stat-block__attribute-label{font-weight:bold;}
 .mon-stat-block__stat-block .ability-block{color:#822000;margin:0;}
 .mon-stat-block__tidbit{margin:5px 0;color:#822000;line-height:1.2;}

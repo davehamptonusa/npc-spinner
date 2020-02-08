@@ -13,7 +13,7 @@ class SimpleValue extends React.Component {
 			<div class="mon-stat-block__attribute">
            		<span class="mon-stat-block__attribute-label">{this.props.title}: </span>
             	<span class="mon-stat-block__attribute-data">
-					<span class="mon-stat-block__attribute-data-value">
+					<span contentEditable class="mon-stat-block__attribute-data-value">
 					{this.props.text}    
 					</span>
             	</span>
