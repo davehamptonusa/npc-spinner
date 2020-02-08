@@ -121,48 +121,55 @@ class App extends React.Component {
         ];
 
 		return (
-			<div className="container-fluid">
+      <div className="container-fluid">
 
-				<div className="page-header">
-  					<h1>
-  						NPC Spinner
-					</h1>
-				</div>
-
-				<div className="row spacer">
-					<div className="col-xs-7 col-md-10 left">
-						<button type="button" className="btn btn-primary"
-						onClick={this.respin}>Generate new traits</button>
-					</div>
-				</div>
-        <div className="row">
-        <div className="col-xs-12">
-          <div className="panel panel-info">
-              <div className="panel-body">
-              <h3>{name}</h3>
-              <SimpleValue title="Race" text={race}/>
-              <SimpleValue title="Age" text={age}/>
-              <SimpleValue title="Sex" text={gender}/>
-              <SimpleValue title="Hair" text={hair}/>
-              <SimpleValue title="Facial" text={facialFeatures}/>
-              <SimpleValue title="Description" text={description}/>
-              <SimpleValue title="City" text=""/>
-              <SimpleValue title="Occupation" text=""/>
-              <ListValue title="Speech" fields={speechFields}/>
-              <TraitList title = "Characteristics" fields={characteristicFields}/>
-
-              <SimpleValue title={Object.keys(alignment)[0]} text={alignment[Object.keys(alignment)[0]]}/>
-              <SimpleValue title="Instinct" text={instinct}/>
-              <SimpleValue title="Knack" text={knack}/>
-              <ListValue title="Personality" fields={personalityFields}/>
-              <div>&nbsp;</div>
-
+        <div class="more-info details-more-info">
+          <div class="mon-stat-block__name">
+            NPC Spinner
+          </div>
+          <div class="detail-content">
+            <div class="mon-stat-block">
+              <div class="mon-stat-block__header">
+                <div class="mon-stat-block__name">
+                    {name}
+                </div>
+                <div class="mon-stat-block__meta">{age} {gender} {race}</div>
+              </div>
+              <div class="mon-stat-block__separator">
+                <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
+              </div>
+              <div class="mon-stat-block__attributes">
+                <SimpleValue title="Hair" text={hair} />
+                <SimpleValue title="Features" text={facialFeatures} />
+                <SimpleValue title="Description" text={description} />
+                <SimpleValue title="City" text="" />
+                <SimpleValue title="Occupation" text="" />
+              </div>
+              <div class="mon-stat-block__attributes">
+                <div class="mon-stat-block__separator">
+                  <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
+                </div>
+                <ListValue title="Speech" fields={speechFields} />
+                <div class="mon-stat-block__separator">
+                  <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
+                </div>
+              </div>
+              <div class="mon-stat-block__tidbits">
+                <TraitList title="Characteristics" fields={characteristicFields} />
+                <SimpleValue title={Object.keys(alignment)[0]} text={alignment[Object.keys(alignment)[0]]} />
+                <SimpleValue title="Instinct" text={instinct} />
+                <SimpleValue title="Knack" text={knack} />
+                <ListValue title="Personality" fields={personalityFields} />
+              </div>
+              <div class="mon-stat-block__separator">
+                <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
+              </div>
             </div>
           </div>
+          <button type="button" className="btn btn-primary"
+                onClick={this.respin}>Generate new traits</button>
         </div>
       </div>
-
-			</div>
 		);
 
 	};

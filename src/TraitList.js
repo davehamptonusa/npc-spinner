@@ -15,25 +15,23 @@ class TraitList extends React.Component {
     render() {
 
 		return (
-			<div className="simpleValue">
-				<div className="row">
-					<div className="col-xs-4 col-md-2 text-right">
-						<strong>{this.props.title}:&nbsp;</strong>
-					</div>
-					<div className="col-xs-8 col-md-10">
-                        <dl>
-						{this.props.fields.map((value, index) => {
-							let location = '';
-							if (value.hasLocation === true) {
-								let bodyLocation = getRandomValue(traitsOptions.bodyLocations);
-								location = ` (location: ${bodyLocation})`;
-							}
-							return <dd contentEditable key={index}>&nbsp;-&nbsp;{value.text}
-							  <small>{location}</small></dd>
-      					})}
-                        </dl>
-					</div>
-				</div>
+			<div class="mon-stat-block__attribute">
+				<span class="mon-stat-block__attribute-label">{this.props.title}: </span>
+				<span class="mon-stat-block__attribute-data">
+					<span class="mon-stat-block__attribute-data-value">
+						<dl>
+							{this.props.fields.map((value, index) => {
+								let location = '';
+								if (value.hasLocation === true) {
+									let bodyLocation = getRandomValue(traitsOptions.bodyLocations);
+									location = ` (location: ${bodyLocation})`;
+								}
+								return <dd contentEditable key={index}>&nbsp;-&nbsp;{value.text}
+									<small>{location}</small></dd>
+							})}
+						</dl>
+					</span>
+				</span>
 			</div>
 		);
 

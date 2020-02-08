@@ -10,19 +10,19 @@ class ListValue extends React.Component {
 
     render() {
 		return (
-			<div className="simpleValue">
-				<div className="row">
-					<div className="col-xs-4 col-md-2 text-right">
-						<strong>{this.props.title}:&nbsp;</strong>
-					</div>
-					<div className="col-xs-8 col-md-10">
-                        <dl>
-						{this.props.fields.map((value, index) => {
-							return <dd contentEditable key={index}><strong>&nbsp;-&nbsp;{value[0]}</strong>: {value[1]}</dd>
-      					})}
-                        </dl>
-					</div>
-				</div>
+			<div class="mon-stat-block__attribute">
+				<span class="mon-stat-block__attribute-label">{this.props.title}: </span>
+				<span class="mon-stat-block__attribute-data">
+					<span class="mon-stat-block__attribute-data-value">
+						<dl>
+							<dl>
+								{this.props.fields.map((value, index) => {
+									return <dd contentEditable key={index}><strong>&nbsp;-&nbsp;{value[0]}</strong>: {value[1]}</dd>
+								})}
+							</dl>
+						</dl>
+					</span>
+				</span>
 			</div>
 		);
     }

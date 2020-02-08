@@ -2,3 +2,176 @@ dl {
   margin-top: 0;
   margin-bottom: 8px;
 }
+
+/*! CSS Used from: https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/css/compiled.css */
+*,*::after,*::before{box-sizing:inherit;}
+aside,footer{display:block;}
+::-moz-selection{background:#242527;color:#fff;text-shadow:none;}
+::selection{background:#242527;color:#fff;text-shadow:none;}
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+a{color:#00e;}
+a:visited{color:#551a8b;}
+a:hover{color:#06e;}
+a:focus{outline:0;}
+a:hover,a:active{outline:0;}
+strong{font-weight:bold;}
+p{margin:0 0 19.5px;}
+img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle;}
+a{color:#242527;text-decoration:none;}
+a:visited{color:#242527;}
+a:hover{color:#303234;text-decoration:none;}
+a:active{color:#242527;}
+p:empty,p:last-child{margin:0;}
+.ad-container{position:relative;z-index:0;}
+.content-container a{color:#000;}
+.content-container a:visited,.content-container a:active{color:#000;}
+.content-container a:hover{color:#0d0d0d;}
+.ad-container{width:1000px;margin:0 auto;background:transparent none;overflow:hidden;z-index:0;}
+.ad-container::after{clear:both;content:"";display:table;}
+.hide-ads .ad-container{display:none!important;}
+@media screen and (max-width:1023px){
+html body.responsive-enabled .ad-container{width:auto;}
+}
+*,*::before,*::after{box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0;}
+p{margin:0 0 15px;}
+*::selection{background:#222!important;}
+.ability-block{font-family:"Scala Sans Offc",Roboto,Helvetica,sans-serif;font-size:14px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:10px 0;color:#4F1300;}
+.ability-block__stat{width:30%;padding:5px 0;text-align:center;}
+.ability-block__heading{font-weight:bold;}
+.ability-block__modifier{margin-left:2px;}
+@media print,(min-width:768px){
+.ability-block__stat{width:16.66667%;}
+}
+.detail-content .ad-container{width:auto;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-bottom:30px;}
+.detail-content .image{width:100%;margin-bottom:35px;}
+.detail-content .image img{width:100%;max-width:300px;margin:0 auto;display:block;border-radius:8px;}
+@media print{
+.detail-content .image{display:none;}
+}
+.details-aside{margin-top:30px;}
+.details-aside .ad-container{width:auto;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}
+@media (min-width:1024px){
+.details-aside{width:340px;margin:0 0 0 auto;}
+}
+.details-aside .image{display:none;}
+@media (min-width:1024px){
+.details-aside .image{display:block;margin:0 auto 20px;}
+}
+@media (min-width:1024px){
+.details-aside .image img{width:100%;border-radius:8px;}
+}
+@media print{
+.details-aside .image{display:block;}
+.details-aside .image img{max-width:300px;margin:0 auto;display:block;border-radius:8px;}
+}
+.details-more-info{top:-20px!important;}
+@media print{
+.details-more-info{padding-top:0!important;top:0!important;}
+}
+@media (min-width:1024px){
+.detail-content .image{display:none;}
+.detail-content footer,.detail-content .more-info-content{width:100%;}
+}
+@media (min-width:1024px){
+.details-more-info{display:-webkit-flex!important;display:-ms-flexbox!important;display:flex!important;-webkit-flex-wrap:wrap!important;-ms-flex-wrap:wrap!important;flex-wrap:wrap!important;-webkit-flex-direction:row!important;-ms-flex-direction:row!important;flex-direction:row!important;-webkit-justify-content:flex-start!important;-ms-flex-pack:start!important;justify-content:flex-start!important;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;height:auto;top:50px!important;}
+}
+.more-info{background-color:white;border-left:1px solid #ECE9E9;border-right:1px solid #ECE9E9;width:90%;margin:0 auto;padding:20px 20px 0;}
+.more-info .more-info-content{font-size:14px;line-height:1.7;}
+.more-info footer{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-top:30px;}
+.more-info footer .tags{font-size:12px;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;margin:15px auto 0;}
+.more-info footer .tags .tag{border:1px solid #cbc6c3;background-color:#fff;box-shadow:inset 0 0 4px 0 #dcd1c7;padding:4px 8px;font-size:9px;font-weight:bold;text-align:center;text-transform:uppercase;display:inline-block;margin-bottom:3px;margin-left:3px;}
+.more-info footer .source{display:inline;font-size:12px;font-family:"Roboto Condensed",Roboto,Helvetica,sans-serif;text-align:center;font-style:italic;width:100%;margin-top:20px;}
+.more-info::after{content:'';display:block;height:28px;width:calc(100% + 40px);border-bottom:28px solid transparent;border-image:url(https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/expanded-listing-item-bottom-border.png) 28 stretch;position:relative;top:4px;margin:0 -20px;}
+@media print{
+.more-info{border-left:none;border-right:0;padding-left:0;padding-right:0;}
+.more-info::after{display:none;}
+}
+@media (min-width:600px){
+.more-info footer .tags{-webkit-flex:none;-ms-flex:none;flex:none;margin:auto 0;}
+.more-info footer .source{width:auto;margin:auto 0 auto auto;}
+}
+@media (min-width:1024px){
+.more-info{padding:30px 26px 0;}
+.more-info::after{width:calc(100% + 52px);margin:0 -26px;}
+.more-info footer{-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-align-items:center;-ms-flex-align:center;align-items:center;}
+.more-info footer .tags{-webkit-flex:none;-ms-flex:none;flex:none;margin:0;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:baseline;-ms-flex-align:baseline;align-items:baseline;}
+}
+.mon-stat-block{background:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/stat-block-top-texture.png"),url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/paper-texture.png");background-size:100% auto;background-position:top center;background-repeat:no-repeat,repeat;position:relative;box-shadow:0 0 5px #979AA4;border:1px solid #d4d0ce;padding:15px;margin:15px 0;font-family:"Scala Sans Offc",Roboto,Helvetica,sans-serif;font-size:15px;}
+.mon-stat-block::before,.mon-stat-block::after{content:"";display:block;background:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/stat-bar-book.png") center;background-size:100% 100%;height:6px;position:absolute;left:-3px;right:-3px;}
+.mon-stat-block::before{top:-3px;}
+.mon-stat-block::after{bottom:-3px;}
+.mon-stat-block__separator-img{max-width:100%;min-height:10px;}
+.mon-stat-block__header{line-height:1.1;}
+.mon-stat-block__name{font-weight:bold;font-size:34px;font-family:MrsEavesSmallCaps,Roboto,Helvetica,sans-serif;color:#822000;}
+.mon-stat-block__name .mon-stat-block__name-link{color:#822000;}
+.mon-stat-block__name .mon-stat-block__name-link:hover,.mon-stat-block__name .mon-stat-block__name-link:visited,.mon-stat-block__name .mon-stat-block__name-link:active{color:#822000;}
+.mon-stat-block__meta{font-style:italic;margin-bottom:15px;}
+.mon-stat-block__attribute{margin:5px 0;color:#822000;line-height:1.2;}
+.mon-stat-block__attribute-label{font-weight:bold;}
+.mon-stat-block__stat-block .ability-block{color:#822000;margin:0;}
+.mon-stat-block__tidbit{margin:5px 0;color:#822000;line-height:1.2;}
+.mon-stat-block__tidbit-label{font-weight:bold;}
+.mon-stat-block__description-blocks{margin-top:20px;}
+.mon-stat-block__description-block-heading{border-bottom:1px solid #822000;color:#822000;font-size:24px;font-weight:normal;font-family:"Scala Sans Offc",Roboto,Helvetica,sans-serif;line-height:1.4;margin-top:20px;margin-bottom:15px;}
+.mon-stat-block__description-block p{margin-bottom:10px;}
+.mon-stat-block .tooltip-hover{font-weight:bold!important;}
+.mon-stat-block .tooltip-hover,.mon-stat-block .tooltip-hover:hover,.mon-stat-block .tooltip-hover:focus,.mon-stat-block .tooltip-hover:active,.mon-stat-block .tooltip-hover:visited{color:inherit!important;font-weight:inherit!important;text-decoration:underline;text-decoration:underline solid #47D18C;}
+@media print,(min-width:768px){
+.mon-stat-block{-webkit-column-count:2;column-count:2;}
+}
+@media print{
+.mon-stat-block{box-shadow:none;background:0;}
+.mon-stat-block::before{border-top:6px solid #999;}
+.mon-stat-block::after{border-bottom:6px solid #999;}
+}
+.tooltip-hover{font-weight:bold!important;}
+.tooltip-hover,.tooltip-hover:hover,.tooltip-hover:focus,.tooltip-hover:active,.tooltip-hover:visited{color:#47D18C!important;}
+@media print{
+.ad-container{display:none!important;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Scala Sans Offc';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/ScalaSansOffc-Bold.ttf") format("truetype");font-weight:bold;font-style:normal;}
+@font-face{font-family:'Scala Sans Offc';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/ScalaSansOffc.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'Scala Sans Offc';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/ScalaSansOffc-BoldIta.ttf") format("truetype");font-weight:bold;font-style:italic;}
+@font-face{font-family:'Scala Sans Offc';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/ScalaSansOffc-Ita.ttf") format("truetype");font-weight:normal;font-style:italic;}
+@font-face{font-family:'Scala Sans Offc';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/ScalaSansOffc-Bold.ttf") format("truetype");font-weight:bold;font-style:normal;}
+@font-face{font-family:'Scala Sans Offc';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/ScalaSansOffc.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face{font-family:'Scala Sans Offc';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/ScalaSansOffc-BoldIta.ttf") format("truetype");font-weight:bold;font-style:italic;}
+@font-face{font-family:'Scala Sans Offc';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/ScalaSansOffc-Ita.ttf") format("truetype");font-weight:normal;font-style:italic;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19a7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-1967DQk6YvNkeg.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-1927DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19y7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCkYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCAYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCgYb9lecyVC4A.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCcYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCsYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCoYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYb9lecyU.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'MrsEavesSmallCaps';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/MrsEavesSmallCaps.ttf") format("truetype");font-weight:100;font-style:normal;}
+@font-face{font-family:'MrsEavesSmallCaps';src:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/fonts/MrsEavesSmallCaps.ttf") format("truetype");font-weight:100;font-style:normal;}
