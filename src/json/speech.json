@@ -42,18 +42,34 @@
     "accent": [
         "African",
         "American",
+        "American",
         "Australian",
         "British",
-        "Cowboy",
+        "British",
+        "British",
+        "German",
+        "German",
         "German",
         "Indian",
         "French",
+        "Irish",
         "Irish",
         "Italian",
         "Mexican",
         "Russian",
         "Southern",
-        "Scottish",
+        "Irish",
+        "Irish",
         "Spanish"
+    ],
+    "status": [
+        "Poor",
+        "Country Poor",
+        "Middle Class",
+        "Middle Class",
+        "Middle Class",
+        "Country Middle Class",
+        "Wealthy",
+        "Aristocratic"
     ]
 }

@@ -68,6 +68,7 @@ class App extends React.Component {
       accent: getRandomValue(this.props.accent),
       airiness: getRandomValue(this.props.airiness),
       pitch: getRandomValue(this.props.pitch),
+      status: getRandomValue(this.props.status),
       cadence: getRandomValue(this.props.cadence),
       characteristic1: getRandomValue(this.props.characteristics),
       characteristic2: getRandomValue(this.props.characteristics),
@@ -100,7 +101,8 @@ class App extends React.Component {
       neutralTrait,
       negativeTrait,
       instinct, 
-      knack } = this.state;
+      knack,
+      status } = this.state;
       const the_vowel = ["a","e","i","o","u"];
       let word = (the_vowel.includes(race[0].toLowerCase())) ? "an" : "a";
       let description = `${height} for ${word} ${race}`;
@@ -114,6 +116,7 @@ class App extends React.Component {
         ["Accent", accent],
         ["Pitch", `${pitch} for a ${gender} ${race}`],
         ["Airiness", airiness],
+        ["Status", status],
         ["Cadence", cadence]
       ];
       let characteristicFields = 
@@ -145,8 +148,6 @@ class App extends React.Component {
                 <SimpleValue title="Hair" text={hair} />
                 <SimpleValue title="Features" text={facialFeatures} />
                 <SimpleValue title="Description" text={description} />
-                <SimpleValue title="City" text="" />
-                <SimpleValue title="Occupation" text="" />
               </div>
               <div class="mon-stat-block__attributes">
                 <div class="mon-stat-block__separator">
@@ -165,6 +166,8 @@ class App extends React.Component {
                 <SimpleValue title="Instinct" text={instinct} />
                 <SimpleValue title="Knack" text={knack} />
                 <ListValue title="Personality" fields={personalityFields} />
+                <SimpleValue title="City" text="" />
+                <SimpleValue title="Occupation" text="" />
               </div>
               <div class="mon-stat-block__separator">
                 <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
