@@ -4,14 +4,15 @@ import './App.css';
 // COMPONENTS
 import SimpleValue from './SimpleValue.js';
 import ListValue from './ListValue.js';
-import TraitList from './TraitList.js';
+import TraitList from './TraitList/TraitList.js';
 // DATA
-import alignment from './json/alignment.json';
-import hair from './json/hair.json';
-import personalityTraits from './json/personalityTraits.json';
-import names from './json/names.json';
-import speech from './json/speech.json';
-import traitsOptions from './json/traitsOptions.json';
+import alignment from '../json/alignment.json';
+import hair from '../json/hair.json';
+import personalityTraits from '../json/personalityTraits.json';
+import names from '../json/names.json';
+import speech from '../json/speech.json';
+import traitsOptions from '../json/traitsOptions.json';
+import StatSeparator from './StatSeparator/StatSeparator';
 //
 import { getRandomValue } from './Utils.js';
 
@@ -141,24 +142,18 @@ class App extends React.Component {
                 </div>
                 <div class="mon-stat-block__meta">{age} {gender} {race}</div>
               </div>
-              <div class="mon-stat-block__separator">
-                <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
-              </div>
+              <StatSeparator />
               <div class="mon-stat-block__attributes">
                 <SimpleValue title="Hair" text={hair} />
                 <SimpleValue title="Features" text={facialFeatures} />
                 <SimpleValue title="Description" text={description} />
               </div>
               <div class="mon-stat-block__attributes">
-                <div class="mon-stat-block__separator">
-                  <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
-                </div>
+                <StatSeparator />
                 <div>
                   <ListValue title="Speech" fields={speechFields} />
                 </div>
-                <div class="mon-stat-block__separator">
-                  <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
-                </div>
+                <StatSeparator />
               </div>
               <div class="mon-stat-block__tidbits">
                 <TraitList title="Characteristics" fields={characteristicFields} />
@@ -169,9 +164,7 @@ class App extends React.Component {
                 <SimpleValue title="City" text="" />
                 <SimpleValue title="Occupation" text="" />
               </div>
-              <div class="mon-stat-block__separator">
-                <img class="mon-stat-block__separator-img" alt="" src="https://media-waterdeep.cursecdn.com/file-attachments/0/579/stat-block-header-bar.svg" />
-              </div>
+              <StatSeparator />
             </div>
           </div>
         </div>

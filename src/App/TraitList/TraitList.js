@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import traitsOptions from './json/traitsOptions.json';
-import { getRandomValue } from './Utils.js';
+import traitsOptions from '../../json/traitsOptions.json';
+import { getRandomValue } from '../Utils';
 
 
 
