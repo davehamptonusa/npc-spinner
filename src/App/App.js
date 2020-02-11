@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './App.css';
 // COMPONENTS
-import SimpleValue from './SimpleValue.js';
-import ListValue from './ListValue.js';
+import SimpleValue from './SimpleValue/SimpleValue.js';
+import ListValue from './ListValue/ListValue.js';
 import TraitList from './TraitList/TraitList.js';
 // DATA
 import alignment from '../json/alignment.json';
