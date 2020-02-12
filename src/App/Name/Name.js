@@ -21,8 +21,6 @@ const CharacterDetails = styled.div`
     font-size: 16px;
 `;
 
-
-
 class Name extends React.Component {
 
     static defaultProps ={
