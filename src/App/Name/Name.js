@@ -13,7 +13,6 @@ const NameBlock = styled.div`
 const NameText = styled.div`
     font-weight:bold;
     font-size:34px;
-    color:#822000;
 `;
 const CharacterDetails = styled.div`
     margin-bottom: 5px;

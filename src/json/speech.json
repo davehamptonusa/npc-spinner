@@ -1,8 +1,12 @@
 {
     "cadence": [
-        "Fast",
-        "Stuttered",
+        "Bursty",
         "Clipped",
+        "Crisp",
+        "Fast",
+        "Halting",
+        "Lazy",
+        "Lisped",
         "Normal Paced",
         "Normal Paced",
         "Normal Paced",
@@ -11,13 +15,9 @@
         "Normal Paced",
         "Normal Paced",
         "Relaxed",
-        "Halting",
-        "Bursty",
+        "Slurred",
         "Stacatto",
-        "Crisp",
-        "Lazy",
-        "Lisp",
-        "Slurred"
+        "Stuttered"
     ],
     "pitch": [
         "Gutteral",
@@ -31,7 +31,7 @@
     ],
     "airiness": [
         "Whispery",
-        "Breathless",
+        "Airy",
         "Normal",
         "Normal",
         "Normal",
@@ -60,7 +60,8 @@
         "Southern",
         "Irish",
         "Irish",
-        "Spanish"
+        "Spanish",
+        "Swedish"
     ],
     "status": [
         "Poor",
@@ -71,5 +72,17 @@
         "Country Middle Class",
         "Wealthy",
         "Aristocratic"
+    ],
+    "throat": [
+        "Back (Kermit)",
+        "Half-Back",
+        "Normal",
+        "Normal",
+        "Normal",
+        "Normal",
+        "Normal",
+        "Normal",
+        "Normal",
+        "Normal"
     ]
 }

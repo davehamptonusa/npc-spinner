@@ -19,6 +19,11 @@ import speech from '../json/speech.json';
 import traitsOptions from '../json/traitsOptions.json';
 // various
 import { getRandomValue } from './Utils.js';
+// images
+import bottomBorder from './bottom-border.png';
+import paperTexture from './paper-texture.png';
+import statBarBook from './stat-bar-book.png';
+import topTexture from './top-texture.png';
 
 
 
@@ -35,7 +40,7 @@ const Page = styled.div`
     height:28px;
     width:calc(100% + 40px);
     border-bottom:28px solid transparent;
-    border-image:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/expanded-listing-item-bottom-border.png") 28 stretch;
+    border-image:url("${bottomBorder}") 28 stretch;
     position:relative;
     top:4px;
     margin:0 -20px;
@@ -60,7 +65,7 @@ const Page = styled.div`
 
 
 const Card = styled.div`
-  background: url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/stat-block-top-texture.png"),url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/paper-texture.png");
+  background: url("${topTexture}"),url("${paperTexture}");
   background-size: 100% auto;
   background-position: top center;
   background-repeat: no-repeat,repeat;
@@ -74,7 +79,7 @@ const Card = styled.div`
   &::before {
     content:"";
     display:block;
-    background:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/stat-bar-book.png")center;
+    background:url("${statBarBook}")center;
     background-size:100% 100%;
     height:6px;
     position:absolute; 
@@ -86,7 +91,7 @@ const Card = styled.div`
   &::after {
     content:"";
     display:block;
-    background:url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/stat-bar-book.png") center;
+    background:url("${statBarBook}") center;
     background-size:100% 100%;
     height:6px;
     position:absolute; 
@@ -145,28 +150,29 @@ class App extends React.Component {
     let lastName = getRandomValue(lastNameList);
 
     return {
-      name: `${firstName} ${lastName}`,
-      gender: gender,
-      age: getRandomValue(this.props.age),
-      height: getRandomValue(this.props.height),
-      race: race,
-      hairStyle: getRandomValue(this.props.hairStyle),
-      hairColor: getRandomValue(this.props.hairColor),
-      hairTexture: getRandomValue(this.props.hairTexture),      
-      facialFeatures: getRandomValue(this.props.facialFeatures),
-      positiveTrait: getRandomValue(this.props.positiveTraits),
-      neutralTrait: getRandomValue(this.props.neutralTraits),
-      negativeTrait: getRandomValue(this.props.negativeTraits),
-      alignment: getRandomValue(this.props.alignment),
       accent: getRandomValue(this.props.accent),
+      age: getRandomValue(this.props.age),
       airiness: getRandomValue(this.props.airiness),
-      pitch: getRandomValue(this.props.pitch),
-      status: getRandomValue(this.props.status),
+      alignment: getRandomValue(this.props.alignment),
       cadence: getRandomValue(this.props.cadence),
       characteristic1: getRandomValue(this.props.characteristics),
       characteristic2: getRandomValue(this.props.characteristics),
+      facialFeatures: getRandomValue(this.props.facialFeatures),
+      gender: gender,
+      hairColor: getRandomValue(this.props.hairColor),
+      hairStyle: getRandomValue(this.props.hairStyle),
+      hairTexture: getRandomValue(this.props.hairTexture),      
+      height: getRandomValue(this.props.height),
       instinct: getRandomValue(this.props.instincts),
-      knack: getRandomValue(this.props.knacks)
+      knack: getRandomValue(this.props.knacks),
+      name: `${firstName} ${lastName}`,
+      negativeTrait: getRandomValue(this.props.negativeTraits),
+      neutralTrait: getRandomValue(this.props.neutralTraits),
+      pitch: getRandomValue(this.props.pitch),
+      positiveTrait: getRandomValue(this.props.positiveTraits),
+      race: race,
+      status: getRandomValue(this.props.status),
+      throat:getRandomValue(this.props.throat),
     }
   } 
 
@@ -175,27 +181,29 @@ class App extends React.Component {
   render() {
     const { 
       accent,
-      alignment,
-      name, 
-      gender, 
-      race, 
       age,
+      airiness, 
+      alignment,
+      cadence, 
+      characteristic1, 
+      characteristic2, 
+      facialFeatures, 
+      gender, 
       hairColor,
       hairStyle,
       hairTexture, 
       height, 
-      facialFeatures, 
-      airiness, 
-      cadence, 
-      pitch,
-      characteristic1, 
-      characteristic2, 
-      positiveTrait, 
-      neutralTrait,
-      negativeTrait,
       instinct, 
       knack,
-      status } = this.state;
+      name, 
+      negativeTrait,
+      neutralTrait,
+      pitch,
+      positiveTrait, 
+      race, 
+      status, 
+      throat 
+    } = this.state;
       const the_vowel = ["a","e","i","o","u"];
       let word = (the_vowel.includes(race[0].toLowerCase())) ? "an" : "a";
       let description = `${height} for ${word} ${race}`;
@@ -210,7 +218,8 @@ class App extends React.Component {
         ["Pitch", `${pitch} for a ${gender} ${race}`],
         ["Airiness", airiness],
         ["Status", status],
-        ["Cadence", cadence]
+        ["Cadence", cadence],
+        ["Throat", throat]
       ];
       let characteristicFields = 
         [
