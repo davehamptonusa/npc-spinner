@@ -1,6 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
+const Attribute = styled.div`
+	margin: 5px 0;
+	color: #822000;
+	line-height: 1.2;
+`;
+
+const Label = styled.span`
+	font-weight:bold;
+`;
 class SimpleValue extends React.Component {
 
 	static defaultProps = {
@@ -10,14 +20,10 @@ class SimpleValue extends React.Component {
 
     render() {
 		return (
-			<div class="mon-stat-block__attribute">
-           		<span class="mon-stat-block__attribute-label">{this.props.title}: </span>
-            	<span class="mon-stat-block__attribute-data">
-					<span contentEditable class="mon-stat-block__attribute-data-value">
-					{this.props.text}    
-					</span>
-            	</span>
-        	</div>
+			<Attribute>
+           		<Label>{this.props.title}: </Label>
+            	<span contentEditable>{this.props.text}</span>
+        	</Attribute>
 		);
     }
 };

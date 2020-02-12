@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Title = styled.div`
     line-height: 1.1;
-    font-family: Cinzel;
+    font-family: Cinzel, serif;
     font-size: 24px;
     color: #822000;
 `;

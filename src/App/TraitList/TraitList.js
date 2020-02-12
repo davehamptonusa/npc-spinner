@@ -2,7 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import traitsOptions from '../../json/traitsOptions.json';
 import { getRandomValue } from '../Utils';
+import styled from 'styled-components';
 
+const Attribute = styled.div`
+	margin: 5px 0;
+	color: #822000;
+	line-height: 1.2;
+`;
+
+const Label = styled.span`
+	font-weight:bold;
+`;
+const List = styled.dl`
+  margin-top: 0;
+  margin-bottom: 8px;
+`;
 
 
 class TraitList extends React.Component {
@@ -13,13 +27,10 @@ class TraitList extends React.Component {
 	  };
 
     render() {
-
 		return (
-			<div class="mon-stat-block__attribute">
-				<span class="mon-stat-block__attribute-label">{this.props.title}: </span>
-				<span class="mon-stat-block__attribute-data">
-					<span class="mon-stat-block__attribute-data-value">
-						<dl>
+			<Attribute>
+				<Label>{this.props.title}: </Label>
+						<List>
 							{this.props.fields.map((value, index) => {
 								let location = '';
 								if (value.hasLocation === true) {
@@ -29,10 +40,8 @@ class TraitList extends React.Component {
 								return <dd contentEditable key={index}>&nbsp;-&nbsp;{value.text}
 									<small>{location}</small></dd>
 							})}
-						</dl>
-					</span>
-				</span>
-			</div>
+						</List>
+			</Attribute>
 		);
 
 

@@ -12,7 +12,3 @@ p:empty,p:last-child{margin:0;}
 *,*::before,*::after{box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0;}
 p{margin:0 0 15px;}
 *::selection{background:#222!important;}
-
-/*! CSS Used fontfaces */
-@font-face{font-family:'Cinzel';font-weight:100;font-style:normal;}
-@font-face{font-family:'Cinzel';font-weight:100;font-style:normal;}

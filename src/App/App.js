@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './App.css';
 import styled from 'styled-components';
 
 // COMPONENTS
-import SimpleValue from './SimpleValue/SimpleValue.js';
-import ListValue from './ListValue/ListValue.js';
-import TraitList from './TraitList/TraitList.js';
 import Header from './Header/Header';
+import ListValue from './ListValue/ListValue.js';
+import Name from './Name/Name';
+import Separator from './Separator/Separator';
+import SimpleValue from './SimpleValue/SimpleValue.js';
+import TraitList from './TraitList/TraitList.js';
+
 // DATA
 import alignment from '../json/alignment.json';
 import hair from '../json/hair.json';
@@ -17,8 +19,7 @@ import speech from '../json/speech.json';
 import traitsOptions from '../json/traitsOptions.json';
 // various
 import { getRandomValue } from './Utils.js';
-// Resources
-import statBar from './stat-block-header-bar.svg'
+
 
 
 const Page = styled.div`
@@ -57,10 +58,7 @@ const Page = styled.div`
   }
 `
 
-const SeparatorImage = styled.img`
-  max-width:100%;
-  min-height:10px;
-`
+
 const Card = styled.div`
   background: url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/stat-block-top-texture.png"),url("https://www.dndbeyond.com/content/1-0-823-0/skins/waterdeep/images/mon-summary/paper-texture.png");
   background-size: 100% auto;
@@ -71,7 +69,7 @@ const Card = styled.div`
   border: 1px solid #d4d0ce;
   padding: 15px;
   margin: 15px 0;
-  font-family: Neuton;
+  font-family: Neuton, serif;
   font-size: 16px;
   &::before {
     content:"";
@@ -97,19 +95,19 @@ const Card = styled.div`
     bottom:-3px;
   }
   @media (min-width:768px){
-    -webkit-column-count:2;
     column-count:2;
   }
   @media print {
     box-shadow:none;
     background:0;
-    -webkit-column-count:2;
     column-count:2;
     &::before{border-top:6px solid #999;}
     &::after{border-bottom:6px solid #999;}
   }
-}
 `
+const Block = styled.div`
+  break-inside: avoid;
+`;
 
 class App extends React.Component {
   constructor(props) {
@@ -225,24 +223,18 @@ class App extends React.Component {
         <Page>
           <Header title="NPC Spinner" buttonTitle = "Spin Again" buttonAction={this.respin} />
           <Card>
-            <div class="mon-stat-block__header">
-              <div class="mon-stat-block__name">
-                  {name}
-              </div>
-              <div class="mon-stat-block__meta">{age} {gender} {race}</div>
-              <SeparatorImage alt="" src={statBar} />
-            </div>
-            <div class="mon-stat-block__attributes">
+            <Name name={name} age={age} gender={gender} race={race} />
+            <Block>
               <SimpleValue title="Hair" text={hair} />
               <SimpleValue title="Features" text={facialFeatures} />
               <SimpleValue title="Description" text={description} />
-            </div>
-            <div class="mon-stat-block__attributes">
-              <SeparatorImage alt="" src={statBar} />
+            </Block>
+            <Block>
+              <Separator />
               <ListValue title="Speech" fields={speechFields} />
-            </div>
-            <div class="mon-stat-block__tidbits">
-              <SeparatorImage alt="" src={statBar} />
+            </Block>
+            <Block>
+              <Separator />
               <TraitList title="Characteristics" fields={characteristicFields} />
               <SimpleValue title={Object.keys(alignment)[0]} text={alignment[Object.keys(alignment)[0]]} />
               <SimpleValue title="Instinct" text={instinct} />
@@ -250,8 +242,8 @@ class App extends React.Component {
               <ListValue title="Personality" fields={personalityFields} />
               <SimpleValue title="City" text="" />
               <SimpleValue title="Occupation" text="" />
-            </div>
-            <SeparatorImage alt="" src={statBar} />
+            </Block>
+            <Separator />
           </Card>
         </Page>
 		);

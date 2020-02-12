@@ -1,5 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+const Attribute = styled.div`
+	margin: 5px 0;
+	color: #822000;
+	line-height: 1.2;
+`;
+
+const Label = styled.span`
+	font-weight:bold;
+`;
+const List = styled.dl`
+  margin-top: 0;
+  margin-bottom: 8px;
+`;
 
 class ListValue extends React.Component {
 
@@ -10,20 +25,14 @@ class ListValue extends React.Component {
 
     render() {
 		return (
-			<div class="mon-stat-block__attribute">
-				<span class="mon-stat-block__attribute-label">{this.props.title}: </span>
-				<span class="mon-stat-block__attribute-data">
-					<span class="mon-stat-block__attribute-data-value">
-						<dl>
-							<dl>
-								{this.props.fields.map((value, index) => {
-									return <dd contentEditable key={index}><strong>&nbsp;-&nbsp;{value[0]}</strong>: {value[1]}</dd>
-								})}
-							</dl>
-						</dl>
-					</span>
-				</span>
-			</div>
+			<Attribute>
+				<Label>{this.props.title}: </Label>
+				<List>
+					{this.props.fields.map((value, index) => {
+						return <dd contentEditable key={index}><strong>&nbsp;-&nbsp;{value[0]}</strong>: {value[1]}</dd>
+					})}
+				</List>
+			</Attribute>
 		);
     }
 };
