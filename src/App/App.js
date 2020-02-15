@@ -61,8 +61,11 @@ const useStyles = makeStyles(theme => ({
         display:'none'
       }
     },
+    '@media (min-width:600px)': {
+      'padding-left': '266px'
+    },
     '@media (min-width:1024px)': {
-      padding: '30px 26px 0',
+      padding: '30px 26px 0 266px',
       '&:after': {
         width: 'calc(100% + 52px)',
         margin: '0 -26px'
