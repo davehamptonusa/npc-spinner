@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import traitsOptions from '../../json/traitsOptions.json';
+import traitsOptions from '../Character/json/traitsOptions.json';
 import { getRandomValue } from '../Utils';
 import styled from 'styled-components';
 
