@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
   },
   content: {
     flexGrow: 1,
-    padding: theme.spacing(3),
+    padding: theme.spacing(2),
     'background-color': 'white',
     'border-left': '1px solid #ECE9E9',
     'border-right': '1px solid #ECE9E9',
@@ -62,10 +62,10 @@ const useStyles = makeStyles(theme => ({
       }
     },
     '@media (min-width:600px)': {
-      'padding-left': '266px'
+      'padding-left': '256px',
     },
     '@media (min-width:1024px)': {
-      padding: '30px 26px 0 266px',
+      'padding-left': '256px',
       '&:after': {
         width: 'calc(100% + 52px)',
         margin: '0 -26px'
