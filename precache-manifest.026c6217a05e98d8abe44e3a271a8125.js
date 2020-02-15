@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ebd96f4a76257f9763c9772a0253ab5c",
+    "revision": "7ca0bc4831ba7e00362eb6193ba45e1e",
     "url": "/npc-spinner/index.html"
   },
   {
-    "revision": "0e8af1b4c78fee1d2206",
+    "revision": "b56a59dfb4bc6970020d",
     "url": "/npc-spinner/static/css/main.8c09af0f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/npc-spinner/static/js/2.fa3dab6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e8af1b4c78fee1d2206",
-    "url": "/npc-spinner/static/js/main.67998474.chunk.js"
+    "revision": "b56a59dfb4bc6970020d",
+    "url": "/npc-spinner/static/js/main.8c06c6cd.chunk.js"
   },
   {
     "revision": "d32fea5e7276f020b1fd",
