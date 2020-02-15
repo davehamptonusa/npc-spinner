@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "964ad0a6c78e5aae57aa0610be87c63d",
+    "revision": "309537848d9750bb9cfd0a5c4fa75955",
     "url": "/npc-spinner/index.html"
   },
   {
-    "revision": "78f90b6e1eed1ec0e4c9",
+    "revision": "ab1813808ea87e88500c",
     "url": "/npc-spinner/static/css/main.8c09af0f.chunk.css"
   },
   {
-    "revision": "225432ab689b2bd95264",
-    "url": "/npc-spinner/static/js/2.f426df59.chunk.js"
+    "revision": "81406efb2da81c77cb60",
+    "url": "/npc-spinner/static/js/2.fa3dab6d.chunk.js"
   },
   {
-    "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/npc-spinner/static/js/2.f426df59.chunk.js.LICENSE.txt"
+    "revision": "3adc01bea76e7956dc3633ee898f6936",
+    "url": "/npc-spinner/static/js/2.fa3dab6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78f90b6e1eed1ec0e4c9",
-    "url": "/npc-spinner/static/js/main.533f73a0.chunk.js"
+    "revision": "ab1813808ea87e88500c",
+    "url": "/npc-spinner/static/js/main.50c91268.chunk.js"
   },
   {
     "revision": "d32fea5e7276f020b1fd",
