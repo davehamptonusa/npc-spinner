@@ -1,0 +1,58 @@
+{
+    "size": [
+        {
+            "name": "Small Village",
+            "minRange": 250,
+            "maxRange": 500,
+            "probability": 34
+        },
+        {
+            "name": "Medium Village",
+            "minRange": 500,
+            "maxRange": 1000,
+            "probability": 21
+        },
+        {
+            "name": "Large Village",
+            "minRange": 1000,
+            "maxRange": 1500,
+            "probability": 13
+        },
+        {
+            "name": "Small Town",
+            "minRange": 1500,
+            "maxRange": 2500,
+            "probability": 13
+        },
+        {
+            "name": "Medium Town",
+            "minRange": 2500,
+            "maxRange": 5000,            
+            "probability": 8
+        },
+        {
+            "name": "Large Town",
+            "minRange": 5000,
+            "maxRange": 10000,
+            "probability": 5
+        },
+        {
+            "name": "Small City",
+            "minRange": 10000,
+            "maxRange": 20000,
+            "probability": 3
+        },
+        {
+            "name": "Medium City",
+            "minRange": 20000,
+            "maxRange": 40000,
+            "probability": 2
+        },
+        {
+            "name": "Large City",
+            "minRange": 40000,
+            "maxRange": 80000,
+            "probability": 1
+        },
+    ]
+}

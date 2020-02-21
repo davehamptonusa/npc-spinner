@@ -1,0 +1,40 @@
+{
+    "Small Village": [
+        {
+            "type": "Inn",
+            "suffix": [
+                "Inn",
+                "Room and Board",
+                "Pub",
+                "Tavern",
+                "Hostel",
+                "Hall"
+            ]
+        },
+        {
+            "type": "General",
+            "suffix": [
+                "Store",
+                "Supplies",
+                "n' More",
+                "Market",
+                "Surplus",
+                "Copper and Silver",
+                "Company"
+            ]
+        },
+        {
+            "type": "Tavern",
+            "suffix": [
+                "Tavern",
+                "Pub",
+                "Grill",
+                "Libations",
+                "Bar",
+                "Bar and Grill",
+                "Place"
+            ]
+        },
+       
+    ]
+}
