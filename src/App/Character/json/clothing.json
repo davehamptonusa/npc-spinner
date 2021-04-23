@@ -1,0 +1,40 @@
+{
+	"clothingStyle": [
+		"Robes",
+		"Over Coat",
+		"Pants and Vest",
+		"Apron",
+		"Work Clothes",
+		"Loose Fitting Robe",
+		"Tight Fitting Outfit",
+		"Cloak",
+		"Hooded Cloak"
+	],
+	"clothingColor": [
+		"Black",
+		"Dark Brown",
+		"Medium Brown",
+		"Light Brown",
+		"Dark Green",
+		"Gray",
+		"Navy",
+		"Burgandy",
+		"Purple",
+		"Sage colored",
+		"Rust colored",
+		"Charcoal",
+		"White"
+	],
+	"clothingTexture": [
+		"Smooth",
+		"Wrinkly",
+		"Finely Pressed",
+		"Rugged looking",
+		"Worn",
+		"Muddy",
+		"Plain",
+		"Patterned",
+		"Embroidered",
+		"Common"
+	]
+}

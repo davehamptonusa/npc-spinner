@@ -1,53 +1,37 @@
 {
     "cadence": [
-        "Bursty",
-        "Clipped",
         "Crisp",
         "Fast",
         "Halting",
         "Lazy",
         "Lisped",
-        "Normal Paced",
-        "Normal Paced",
-        "Normal Paced",
-        "Normal Paced",
-        "Normal Paced",
-        "Normal Paced",
-        "Normal Paced",
-        "Relaxed",
+        "Normal",
+        "Normal",
         "Slurred",
-        "Stacatto",
         "Stuttered"
     ],
     "pitch": [
-        "Gutteral",
         "Low",
         "Medium Low",
         "Normal",
         "Normal",
-        "Normal",
         "Medium High",
-        "High"
+        "Squeeky"
     ],
     "airiness": [
-        "Whispery",
+        "Raspy",
         "Airy",
         "Normal",
         "Normal",
-        "Normal",
-        "Normal",
-        "Slightly Nasaly",
-        "Stuffy"
+        "Nasaly"
     ],
     "accent": [
         "African",
         "American",
         "American",
-        "Australian",
-        "British",
-        "British",
-        "British",
-        "German",
+        "English",
+        "English",
+        "Cockney",
         "German",
         "German",
         "Indian",
@@ -55,35 +39,23 @@
         "Irish",
         "Irish",
         "Italian",
-        "Mexican",
         "Russian",
         "Southern",
-        "Irish",
-        "Irish",
         "Spanish",
         "Swedish",
+        "Texas",
         "Transylvania"
     ],
     "status": [
-        "Poor",
-        "Country Poor",
-        "Middle Class",
-        "Middle Class",
-        "Middle Class",
-        "Country Middle Class",
-        "Wealthy",
-        "Aristocratic"
+        "Slovenly",
+        "Average",
+        "Functional",
+        "Well-made"
     ],
-    "throat": [
-        "Back (Kermit)",
-        "Half-Back",
+    "intelligence": [
+        "Uneducated",
         "Normal",
         "Normal",
-        "Normal",
-        "Normal",
-        "Normal",
-        "Normal",
-        "Normal",
-        "Normal"
+        "Highly Intelligent"
     ]
 }
