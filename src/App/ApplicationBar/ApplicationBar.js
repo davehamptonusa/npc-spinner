@@ -67,7 +67,7 @@ function ApplicationBar(props) {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" noWrap>
-          Dungeon Master's Assitant
+          LegionDND Toolset
         </Typography>
       </Toolbar>
     </AppBar>  
