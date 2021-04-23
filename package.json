@@ -2,7 +2,7 @@
   "name": "npc-spinner",
   "version": "1.1.0",
   "private": true,
-  "homepage": "https://davehamptonusa.github.io/npc-spinner",
+  "homepage": "http://toolset.legiondnd.com",
   "dependencies": {
     "@material-ui/core": "^4.9.2",
     "@material-ui/icons": "^4.9.1",
