@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/npc-spinner/precache-manifest.b1ca3bc656b03a7bad74fb38d3960158.js"
+  "/npc-spinner/precache-manifest.140840a9252c2ff69e14db72d0f6aeb9.js"
 );
 
 self.addEventListener('message', (event) => {
