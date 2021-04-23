@@ -222,8 +222,8 @@ class Character extends React.Component {
             <SimpleValue title="Instinct" text={instinct} />
             <SimpleValue title="Knack" text={knack} />
             <ListValue title="Personality" fields={personalityFields} />
-            <SimpleValue title="City" text="" />
-            <SimpleValue title="Occupation" text="" />
+            <SimpleValue title="City" text=" " />
+            <SimpleValue title="Occupation" text=" " />
           </Block>
           <Separator />
         </Card>

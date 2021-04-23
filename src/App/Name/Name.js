@@ -38,8 +38,8 @@ class Name extends React.Component {
     
         return (
             <NameBlock>
-              <NameText>{name}</NameText>
-              <CharacterDetails>{age} {gender} {race}</CharacterDetails>
+              <NameText><span contentEditable>{name}</span></NameText>
+              <CharacterDetails><span contentEditable>{age} {gender} {race}</span></CharacterDetails>
               <Separator />
             </NameBlock>
         );
