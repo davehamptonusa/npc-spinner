@@ -1,6 +1,7 @@
 {
     "cadence": [
         "Crisp",
+        "Enunciated",
         "Fast",
         "Halting",
         "Lazy",
@@ -10,14 +11,23 @@
         "Slurred",
         "Stuttered"
     ],
-    "pitch": [
-        "Low",
-        "Medium Low",
-        "Normal",
-        "Normal",
-        "Medium High",
-        "Squeeky"
-    ],
+    "pitch": {
+        "Male":[
+            "Low",
+            "Medium Low",
+            "Normal",
+            "Normal",
+            "Medium High",
+            "Squeeky"
+        ],
+        "Female":[
+            "Normal",
+            "Normal",
+            "Medium High",
+            "High",
+            "Squeeky"
+        ]
+    },
     "airiness": [
         "Raspy",
         "Airy",
@@ -39,18 +49,20 @@
         "Irish",
         "Irish",
         "Italian",
+        "Japanese",
         "Russian",
         "Southern",
         "Spanish",
         "Swedish",
+        "Surfer",
         "Texas",
         "Transylvania"
     ],
-    "status": [
-        "Slovenly",
-        "Average",
-        "Functional",
-        "Well-made"
+    "volume": [
+        "Quiet",
+        "Normal",
+        "Normal",
+        "Loud"
     ],
     "intelligence": [
         "Uneducated",

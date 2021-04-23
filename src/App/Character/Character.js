@@ -122,8 +122,9 @@ class Character extends React.Component {
       clothingColor: getRandomValue(this.props.clothingColor),
       clothingStyle: getRandomValue(this.props.clothingStyle),
       clothingTexture: getRandomValue(this.props.clothingTexture),
-      facialFeatures: getRandomValue(this.props.facialFeatures),
+      clothingQuality: getRandomValue(this.props.clothingQuality),
       gender: gender,
+      facialFeatures: `${getRandomValue(this.props.facialFeatures)} ${gender === "Male" ? " and " + getRandomValue(this.props.facialHair) : ''}`,
       hairColor: getRandomValue(this.props.hairColor),
       hairStyle: getRandomValue(this.props.hairStyle),
       hairTexture: getRandomValue(this.props.hairTexture),      
@@ -133,11 +134,12 @@ class Character extends React.Component {
       name: `${firstName} ${lastName}`,
       negativeTrait: getRandomValue(this.props.negativeTraits),
       neutralTrait: getRandomValue(this.props.neutralTraits),
-      pitch: getRandomValue(this.props.pitch),
+      pitch: getRandomValue(this.props.pitch[gender]),
       positiveTrait: getRandomValue(this.props.positiveTraits),
       race: race,
-      status: getRandomValue(this.props.status),
       intelligence:getRandomValue(this.props.intelligence),
+      volume: getRandomValue(this.props.volume)
+
     }
   } 
 
@@ -153,6 +155,7 @@ class Character extends React.Component {
       clothingColor,
       clothingStyle,
       clothingTexture,
+      clothingQuality,
       characteristic1, 
       characteristic2, 
       facialFeatures, 
@@ -169,12 +172,12 @@ class Character extends React.Component {
       neutralTrait,
       pitch,
       positiveTrait, 
-      race, 
-      status 
+      race,
+      volume
     } = this.state;
       const the_vowel = ["a","e","i","o","u"];
       let word = (the_vowel.includes(race[0].toLowerCase())) ? "an" : "a";
-      let clothing = `${status}, ${clothingTexture}, ${clothingColor} ${clothingStyle}`;
+      let clothing = `${clothingQuality}, ${clothingTexture}, ${clothingColor} ${clothingStyle}`;
 
       let description = `${height} for ${word} ${race}`;
       let hair = `${hairStyle}, ${hairTexture}, ${hairColor} Hair`
@@ -185,7 +188,8 @@ class Character extends React.Component {
       ];
       let speechFields = [
         ["Accent", accent],
-        ["Pitch", `${pitch} for a ${gender} ${race}`],
+        ["Pitch", `${pitch} for a ${race}`],
+        ["Volume", volume],
         ["Airiness", airiness],
         ["Cadence", cadence],
         ["Intelligence", intelligence]
@@ -244,7 +248,9 @@ Character.propTypes = {
   clothingColor: PropTypes.arrayOf(PropTypes.string),
   clothingStyle: PropTypes.arrayOf(PropTypes.string),
   clothingTexture: PropTypes.arrayOf(PropTypes.string),
+  clothingQuality: PropTypes.arrayOf(PropTypes.string),
   facialFeatures: PropTypes.arrayOf(PropTypes.string),
+  facialHair: PropTypes.arrayOf(PropTypes.string),
   bodyLocations: PropTypes.arrayOf(PropTypes.string),
   personality: PropTypes.arrayOf(PropTypes.string)
 };

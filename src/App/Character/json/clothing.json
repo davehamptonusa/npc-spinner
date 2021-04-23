@@ -36,5 +36,11 @@
 		"Patterned",
 		"Embroidered",
 		"Common"
-	]
+	],
+	"clothingQuality": [
+        "Slovenly",
+        "Average Quality",
+        "Functional",
+        "Well-made"
+    ]
 }
